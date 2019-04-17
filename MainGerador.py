@@ -41,24 +41,28 @@ def main():
 			if(conti != 1 and conti != 2 and conti != 3):                
 			  #print(conti)
 			  conti = 1
+			  ModuloTemperatura(novovalor)
 			  AlertaTemperatura(temp)
 			  
 		if(temp >= 27.00 and temp < 29.00 and conti == 1):
 			if(conti != 0 and conti != 2 and conti != 3):                    
 			  #print(conti)
 			  conti = 2
+			  ModuloTemperatura(novovalor)
 			  AlertaTemperatura(temp)
 			  
 		if(temp >= 29.00 and temp < 31.00 and conti == 2):
 			if(conti != 0 and conti != 1 and conti != 3):
 			  #print(conti)
 			  conti = 3
+			  ModuloTemperatura(novovalor)
 			  AlertaTemperatura(temp)
 			  
 		if(temp >= 31.00 and conti == 3):
 			if(conti != 0 and conti != 1 and conti != 2): 
 			  #print(conti)
 			  conti = 4
+			  ModuloTemperatura(novovalor)
 			  AlertaTemperatura(temp)
 
 		if(temp < 26.00):
