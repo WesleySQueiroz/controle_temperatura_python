@@ -1,0 +1,17 @@
+Controle de Temperatura
+
+Projeto criado utilizando a linguagem python. O projeto tem como objetivo obter leituras de um termômetro e alimentar uma base de
+dados através de um webservice. Para realizar o projeto foi utilizado:
+
+- Arduino UNO;
+- Sensor de temperatura DS18b20;
+- Raspberry Pi 3 b+;
+
+A montagem do projeto é bem simples, o sensor é ligado ao arduino (exemplo: https://www.filipeflop.com/blog/sensor-de-temperatura-ds18b20-arduino/),
+os dados são enviados do arduino para a raspberry através da porta serial, essa por sua vez realiza o tratamento dos dados recebidos
+e envia para um webservice.
+
+
+
+
+ 
